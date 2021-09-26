@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Table(name = "ciclo")
 public class Ciclo {
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idCiclo;
