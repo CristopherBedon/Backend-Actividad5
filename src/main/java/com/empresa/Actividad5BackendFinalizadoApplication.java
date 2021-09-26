@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Sesion01InicioApplication {
+public class Actividad5BackendFinalizadoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Sesion01InicioApplication.class, args);
+		SpringApplication.run(Actividad5BackendFinalizadoApplication.class, args);
+		System.out.println("Actividad 5");
 	}
 
 }
